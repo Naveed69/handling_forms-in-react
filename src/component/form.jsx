@@ -11,8 +11,10 @@ export const Form=()=>{
             <select >
                 <option value='naveed'>Dr.Naveed</option>
                 <option value='roma'>Dr.Roma</option>
-            </select>
+            </select><br/>
+            <label>Date:<input type="date"></input></label>
             <br/><button type="button" onClick={handleForm}>Submit</button>
+
         </div>
     )
 }
